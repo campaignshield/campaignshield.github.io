@@ -899,6 +899,7 @@ body{
 =========================*/
 .fun-facts{
 	position:relative;
+	background: #28A745;
 }
 .fun-facts.section{
 	padding:120px 0;
