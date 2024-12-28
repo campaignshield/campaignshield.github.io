@@ -593,57 +593,78 @@ body{
 	height: 600px;
 	background-size: cover;
 	background-position: center;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
+	position: relative;
 }
-.slider .single-slider .text{
-	margin-top:120px;
+.slider .single-slider:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+	z-index: 1;
 }
-.slider.index2 .single-slider .text{
-	margin-top:150px;
+.slider .single-slider .text {
+	margin-top: 120px;
+	position: relative;
+	z-index: 2; /* Ensures text is above the overlay */
+	color: #fff;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); /* Adds contrast */
+}
+.slider.index2 .single-slider .text {
+	margin-top: 150px;
 }
 .slider .single-slider h1 {
-	color: #2C2D3F;
 	font-size: 38px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
 	line-height: 42px;
+	color: #fff;
 }
-.slider .single-slider h1 span{
-	color:#28A745;
+.slider .single-slider h1 span {
+	color: #28A745;
+	text-shadow: none; /* Retain brand color visibility */
 }
 .slider .single-slider p {
-	color: #2C2D3F;
+	color: #f0f0f0;
 	margin-top: 27px;
 	font-weight: 400;
 }
-.slider .single-slider .button{
-	margin-top:30px;
+.slider .single-slider .button {
+	margin-top: 30px;
 }
-.slider .single-slider .btn{
-	color:#fff;
-	background:#28A745;
-	font-weight:500;
-	display:inline-block;
-	margin:0;
-	margin-right:10px;
+.slider .single-slider .btn {
+	color: #fff;
+	background: #28A745;
+	font-weight: 500;
+	display: inline-block;
+	margin: 0;
+	margin-right: 10px;
+	transition: all 0.3s ease;
 }
-.slider .single-slider .btn:last-child{
-	margin:0;
+.slider .single-slider .btn:last-child {
+	margin: 0;
 }
-.slider .single-slider .btn.primary{
-	background:#2C2D3F;
-	color:#fff;
+.slider .single-slider .btn.primary {
+	background: #2C2D3F;
+	color: #fff;
 }
-.slider .single-slider .btn.primary:before{
-	background:#28A745;
+.slider .single-slider .btn.primary:before {
+	background: #28A745;
+}
+.slider .single-slider .btn:hover {
+	background: #1e7a36; /* Slightly darker green on hover */
+	color: #fff;
 }
 .slider .owl-carousel .owl-nav {
 	margin: 0;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-	margin-top:-25px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	margin-top: -25px;
 }
 .slider .owl-carousel .owl-nav div {
 	height: 50px;
@@ -661,26 +682,26 @@ body{
 	padding: 0;
 	border-radius: 50%;
 }
-.slider .owl-carousel .owl-nav div:hover{
-	background:#2C2D3F;
-	color:#fff;
+.slider .owl-carousel .owl-nav div:hover {
+	background: #2C2D3F;
+	color: #fff;
 }
-.slider .owl-carousel .owl-controls .owl-nav .owl-prev{
-	left:20px;
+.slider .owl-carousel .owl-controls .owl-nav .owl-prev {
+	left: 20px;
 }
-.slider .owl-carousel .owl-controls .owl-nav .owl-next{
-	right:20px;
+.slider .owl-carousel .owl-controls .owl-nav .owl-next {
+	right: 20px;
 }
 
 /* Slider Animation */
-.owl-item.active .single-slider h1{
-    animation: fadeInUp 1s both 0.6s;
+.owl-item.active .single-slider h1 {
+	animation: fadeInUp 1s both 0.6s;
 }
-.owl-item.active .single-slider p{
-    animation: fadeInUp 1s both 1s;
+.owl-item.active .single-slider p {
+	animation: fadeInUp 1s both 1s;
 }
-.owl-item.active .single-slider .button{
-    animation: fadeInDown 1s both 1.5s;
+.owl-item.active .single-slider .button {
+	animation: fadeInDown 1s both 1.5s;
 }
 /*===========================
 	End Hero Area CSS
