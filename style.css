@@ -968,6 +968,46 @@ body{
     font-size: 16px;
     color: #666;
 }
+.testimonials .single-testimonial {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.testimonials .single-testimonial:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.testimonials .testimonial-content {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 15px;
+}
+.testimonials .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials .testimonial-author img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonials .testimonial-author h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin: 5px 0;
+}
+.testimonials .testimonial-author span {
+    font-size: 14px;
+    color: #28A745;
+}
+
 /*=============================
 	End Schedule CSS
 ===============================*/
