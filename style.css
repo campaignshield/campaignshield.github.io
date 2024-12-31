@@ -1880,12 +1880,11 @@ body{
 /*====================
 	Start Team CSS
 ======================*/ 
-.team{
-	background-image:url('img/testi-bg.jpg');
-	background-size:cover;
-	background-position:center;
-	background-repeat:no-repeat;
-	position:relative;
+.team {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 .team.single-page{
 	background:#fff;
