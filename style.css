@@ -1881,53 +1881,70 @@ body{
 	Start Team CSS
 ======================*/ 
 .team {
-    background: #f8f9fa; /* Matches the background color of the previous section */
-    padding: 60px 0; /* Consistent padding */
-    margin-top: 0; /* Remove any top margin to eliminate the line */
+    background: #fff; /* Matches the background of the Core Values section */
+    padding: 60px 0; /* Consistent padding for all sections */
+    margin-top: 0; /* Removes separation line */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Matches shadow style of Core Values */
 }
 
 .team .section-title h2 {
-    color: #2C2D3F; /* Ensure consistency in font color */
     font-size: 36px;
+    font-weight: 700;
+    color: #333; /* Matches Core Values heading color */
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .team .section-title p {
-    color: #666; /* Match description text color */
     font-size: 16px;
+    color: #666; /* Matches Core Values description text */
+    line-height: 1.6;
+    text-align: center;
     margin-bottom: 30px;
 }
 
 .team .single-team {
-    background: #fff; /* Keep team cards white */
-    transition: all 0.3s ease;
-    margin-top: 30px;
+    background: #fff;
     text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
-    border-radius: 5px;
+    padding: 20px; /* Matches the spacing in Core Values */
+    border: 1px solid #e6e6e6; /* Matches the border style */
+    border-radius: 10px; /* Matches rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Matches box shadow */
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
 }
 
 .team .single-team:hover {
-    background: #f9f9f9; /* Subtle hover effect */
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Slightly enhanced shadow on hover */
+    transform: translateY(-5px); /* Subtle hover effect */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); /* Slightly enhanced shadow on hover */
+}
+
+.team .t-head img {
+    width: 100%;
+    border-radius: 10px 10px 0 0; /* Ensures consistency with the card design */
 }
 
 .team .t-bottom h2 {
     font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 500;
-    color: #2C2D3F;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.team .t-bottom span {
+    display: block;
+    font-size: 16px;
+    color: #28A745; /* Matches Core Values icon color */
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .team .t-bottom p {
-    color: #888; /* Softer text color for description */
-    font-size: 14px;
-    margin-bottom: 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
 }
 
-.team .t-bottom h2:hover {
-    color: #28A745; /* Accent color on hover */
-}
 /*-- Doctor Details --*/
 .doctor-details-left {
 	-webkit-box-shadow: 0px 0px 10px 0px #ddd;
