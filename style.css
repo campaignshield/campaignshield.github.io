@@ -940,6 +940,34 @@ body{
     line-height: 1.8;
     color: #666;
 }
+.statistics .single-stat {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.statistics .single-stat:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.statistics .stat-icon {
+    font-size: 40px;
+    color: #28A745;
+    margin-bottom: 10px;
+}
+.statistics h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+.statistics p {
+    font-size: 16px;
+    color: #666;
+}
 /*=============================
 	End Schedule CSS
 ===============================*/
