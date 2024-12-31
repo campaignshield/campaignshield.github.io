@@ -1246,6 +1246,9 @@ body{
     color: #fff;
     text-align: center;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .call-to-action::before {
     content: '';
@@ -1285,6 +1288,7 @@ body{
     background-color: #1e7a36;
     color: #fff;
 }
+
 /*===============================
 	Start Call to action CSS
 =================================*/
