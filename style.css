@@ -882,13 +882,13 @@ body{
 .section-title {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reduced space below the title */
     color: #333; /* Dark text color */
 }
 
 .section-divider {
     width: 50px;
-    margin: 20px auto;
+    margin: 10px auto; /* Adjusted margin for balanced spacing above and below */
     display: block;
 }
 
@@ -896,6 +896,7 @@ body{
     font-size: 16px;
     line-height: 1.8;
     color: #666; /* Lighter text color for readability */
+    margin-top: 20px; /* Add space above the paragraph */
 }
 
 /*=============================
