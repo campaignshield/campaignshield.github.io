@@ -882,7 +882,7 @@ body{
 .section-title {
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 10px; /* Reduced space below the title */
+    margin-bottom: 20px; /* Reduced space below the title */
     color: #333; /* Dark text color */
 }
 
