@@ -1073,6 +1073,31 @@ body{
 	color:#fff;
 	font-size:15px;
 }
+.core-values .single-value {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.core-values .value-icon {
+    font-size: 40px;
+    color: #28A745;
+    margin-bottom: 15px;
+}
+.core-values h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+}
+.core-values p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
 /*===================
 	End Fun Facts
 =====================*/
