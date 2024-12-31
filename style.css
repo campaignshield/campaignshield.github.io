@@ -875,7 +875,27 @@ body{
 	float: right;
 }
 .section {
-    padding-top: 50px; /* Adjust as needed */
+    padding: 60px 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.section-divider {
+    width: 50px;
+    margin: 20px auto;
+    display: block;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666; /* Lighter text color for readability */
 }
 
 /*=============================
