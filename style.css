@@ -1881,7 +1881,7 @@ body{
 	Start Team CSS
 ======================*/ 
 .team {
-    background: #fff; /* Matches the background of the Core Values section */
+    background: #f9f9f9;; /* Matches the background of the Core Values section */
     padding: 60px 0; /* Consistent padding for all sections */
     margin-top: 0; /* Removes separation line */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Matches shadow style of Core Values */
