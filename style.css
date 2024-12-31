@@ -1881,49 +1881,35 @@ body{
 	Start Team CSS
 ======================*/ 
 .team {
-    background: linear-gradient(to right, #f4f4f4, #ffffff); /* Soft gradient for a seamless look */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 60px 0; /* Add padding for spacing */
-    position: relative;
+    background: #f8f9fa; /* Matches the background color of the previous section */
+    padding: 60px 0; /* Consistent padding */
+    margin-top: 0; /* Remove any top margin to eliminate the line */
 }
 
 .team .section-title h2 {
-    color: #2C2D3F; /* Match the heading color */
+    color: #2C2D3F; /* Ensure consistency in font color */
     font-size: 36px;
     margin-bottom: 10px;
 }
 
 .team .section-title p {
-    color: #666;
+    color: #666; /* Match description text color */
     font-size: 16px;
     margin-bottom: 30px;
 }
 
 .team .single-team {
-    background: transparent; /* Transparent background for team cards */
+    background: #fff; /* Keep team cards white */
     transition: all 0.3s ease;
     margin-top: 30px;
     text-align: center;
-    box-shadow: none; /* Remove box shadow */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
     border-radius: 5px;
-    overflow: hidden;
 }
 
 .team .single-team:hover {
     background: #f9f9f9; /* Subtle hover effect */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow on hover */
-}
-
-.team .t-head img {
-    width: 100%;
-    border-radius: 5px; /* Slight rounding to match the design language */
-}
-
-.team .t-bottom {
-    text-align: center;
-    padding: 15px 20px; /* Adjust padding for better spacing */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Slightly enhanced shadow on hover */
 }
 
 .team .t-bottom h2 {
@@ -1931,7 +1917,6 @@ body{
     text-transform: capitalize;
     font-weight: 500;
     color: #2C2D3F;
-    margin-bottom: 5px;
 }
 
 .team .t-bottom p {
