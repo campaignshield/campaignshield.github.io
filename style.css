@@ -874,6 +874,10 @@ body{
 	font-weight: 400;
 	float: right;
 }
+.section {
+    padding-top: 50px; /* Adjust as needed */
+}
+
 /*=============================
 	End Schedule CSS
 ===============================*/
